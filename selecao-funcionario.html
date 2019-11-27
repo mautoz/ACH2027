@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <a class="navbar-brand" href="#">SIAF</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="selecao-funcionario.html">Avaliação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="avaliacoes-passadas.html">Avaliações passadas</a>
+          </li>
+        </ul>
+
+        <div class="text-white">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Configurações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sair</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="text-center">
+            <h1>Bem-vindo ao SAF!</h1>
+            <hr>
+            <p class="text-center">
+                SIAF é o nosso sistema interno de avaliação de funcionários! Aqui você se encontra no sistema de avaliação de funcionários, para que a avaliação seja completa será necessário que você responda três questionários escolhendo entre 1 e 5 (sendo 1 uma resposta negativa e 5 uma resposta positiva) sobre os funcionários listados, a avaliação será concluída uma vez que todos os questionários sejam respondidos sobre os funcionários pendentes na sua lista.                    
+            </p>
+            <p class="test-center">
+                Selecione da lista de funcionários para começar a avaliação deste funcionário, as informações são salvas toda vez que você concluir ou sair do questionário aberto, estes serão marcados como não concluídos para facilitar o retorno para a avaliação.
+            </p>
+        </div>
+        
+        <form action="questionario-parte-1.html">
+            <label for="funcs">Lista de funcionários</label>
+            <select class="form-control" id="funcs">
+                <option>funcionário A</option>
+                <option>funcionário B</option>
+                <option>funcionário C</option>
+                <option>funcionário D</option>
+            </select> 
+            <button class="btn btn-success float-right" type="submit" id="funcs">Avaliar</button>              
+        </form>     
+        
+    </div>  
+</body>
+</html>
