@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <a class="navbar-brand" href="#">SIAF</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="selecao-funcionario.html">Avaliação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="avaliacoes-passadas.html">Avaliações passadas</a>
+          </li>
+        </ul>
+
+        <div class="text-white">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Configurações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sair</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Questionário - Eixo Y</h1>
+	  <h1>N1 - discorda completamente | N3 - nem concorda, nem discorda | N5 - concorda completamente</h1>
+      <hr>
+      <div class="progress mb-5">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          1.Influencia positivamente a tomada de decisão e nunca omite informações relevantes
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+	  
+	  <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          2.Constrói parcerias e sabe trabalhar em equipe, critica e aceita criticas com serenidade.
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+
+	  <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          3.Posiciona-se claramente nas discussões, independente de cargos ou de sua área de atuação
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+	  
+	  <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          4.É acessível, conquista apoio e confiança por saber gerar soluções em conjunto, dentro e fora da estrutura à qual se encontra vinculado, contribuindo para um ambiente colaborativo.
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+	  
+      <!-- Botão fake para avançar -->
+      <div class="text-right pt-3">
+        <form action="questionario-parte-2.html">
+          <button class="btn btn-success float-right" type="submit" id="funcs">Avançar</button>
+        </form>
+      </div>
+      <!-- Fim do Botão fake para avançar -->
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <a class="navbar-brand" href="#">SIAF</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="selecao-funcionario.html">Avaliação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="avaliacoes-passadas.html">Avaliações passadas</a>
+          </li>
+        </ul>
+
+        <div class="text-white">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Configurações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sair</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Questionário - Eixo X</h1>
+      <hr>
+      <div class="progress  mb-5">
+      <div class="progress-bar bg-danger" role="progressbar" style="width: 33%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          1. Criação do modelo de propensão de contratação dos produtos de crédito
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 - fazer o modelo com ks de 10% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 - fazer o modelo com ks de 30% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 - fazer o modelo com ks de 50% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 - fazer o modelo com ks de 60% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 - fazer o modelo com ks de 70% </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+      <!-- Botão fake para avançar -->
+      <div class="text-right pt-3">
+        <form action="questionario-parte-3.html">
+          <button class="btn btn-success float-right" type="submit" id="funcs">Avançar</button>
+        </form>
+      </div>
+      <!-- Fim do Botão fake para avançar -->
+	  
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          2. Criação do modelo de propensão de contratação dos produtos de Investimento
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 - fazer o modelo com ks de 10% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 - fazer o modelo com ks de 30% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 - fazer o modelo com ks de 50% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 - fazer o modelo com ks de 60% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 - fazer o modelo com ks de 70% </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+      <!-- Botão fake para avançar -->
+      <div class="text-right pt-3">
+        <form action="questionario-parte-3.html">
+          <button class="btn btn-success float-right" type="submit" id="funcs">Avançar</button>
+        </form>
+      </div>
+      <!-- Fim do Botão fake para avançar -->
+	  
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          3. Criação do modelo de propensão de contratação dos produtos de Seguros
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 - fazer o modelo com ks de 10% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 - fazer o modelo com ks de 30% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 - fazer o modelo com ks de 50% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 - fazer o modelo com ks de 60% </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 - fazer o modelo com ks de 70% </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+      <!-- Botão fake para avançar -->
+      <div class="text-right pt-3">
+        <form action="questionario-parte-3.html">
+          <button class="btn btn-success float-right" type="submit" id="funcs">Avançar</button>
+        </form>
+      </div>
+      <!-- Fim do Botão fake para avançar -->
+	  
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          4. Aplicação dos modelos em campanhas de oferta
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 - aplicar em mais de 10% das campanhas</label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 - aplicar em mais de 30% das campanhas</label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 - aplicar em mais de 50% das campanhas</label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 - aplicar em mais de 60% das campanhas</label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 - aplicar em mais de 70% das campanhas</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+	  
+      <!-- Botão fake para avançar -->
+      <div class="text-right pt-3">
+        <form action="questionario-parte-3.html">
+          <button class="btn btn-success float-right" type="submit" id="funcs">Avançar</button>
+        </form>
+      </div>
+      <!-- Fim do Botão fake para avançar -->
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-3">
+      <a class="navbar-brand" href="#">SIAF</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="selecao-funcionario.html">Avaliação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="avaliacoes-passadas.html">Avaliações passadas</a>
+          </li>
+        </ul>
+
+        <div class="text-white">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Configurações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sair</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Questionário - Eixo Z</h1>
+	  <h1>N1 - discorda completamente | N3 - nem concorda, nem discorda | N5 - concorda completamente</h1>
+      <hr>
+      <div class="progress  mb-5">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 66%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+        </div>
+      </div>
+      
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          1. Influencia positivamente a tomada de decisão e nunca omite informações relevantes 
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+	  
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          2. Indigna-se e atua contra o que pode prejudicar o bem estar das pessoas 
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+	  
+      <!-- Início da pergunta -->
+      <div class="card">
+        <div class="card-header">
+          3. Esta aderente ao traje utilizado na empresa ?
+        </div>
+        <div class="card-body text-center">
+          <form>
+            <div class="form-row">              
+              <div class="form-check col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N1 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N2 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N3 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N4 </label>
+              </div>
+              <div class="form-check  col">
+                <input class="form-check-input" type="radio" name="p1" id="exampleRadios1" value="r1" checked>
+                <label class="form-check-label" for="exampleRadios1">N5 </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Fim da pergunta -->
+
+      <!-- Botão fake para avançar -->
+      <div class="text-right pt-3">
+        <form action="questionario-parte-fim.html">
+          <button class="btn btn-success float-right" type="submit" id="funcs">Avançar</button>
+        </form>
+      </div>
+      <!-- Fim do Botão fake para avançar -->
+      
+    </div>
+</body>
+</html>
